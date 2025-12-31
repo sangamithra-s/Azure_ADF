@@ -1,0 +1,17 @@
+{
+	"name": "pipeline_adf_sangu",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait_5",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 5
+				}
+			}
+		],
+		"annotations": []
+	}
+}
