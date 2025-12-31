@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADF-sangu166"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://datalakesangu16.dfs.core.windows.net/"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "sangu-azure-server.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "sangu_azure"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "Sangu"
+		},
+		"HttpServer1_properties_typeProperties_url": {
+			"value": "https://pokeapi.co/api/v2/pokemon"
+		},
+		"RestService_properties_typeProperties_url": {
+			"value": "https://pokeapi.co/api/v2/pokemon"
+		},
+		"StorageTrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/ac714a17-7a41-4bf4-944d-13d4ee389d4e/resourceGroups/ADF_Sangu/providers/Microsoft.Storage/storageAccounts/datalakesangu16"
+		},
+		"trigger_Storage_properties_typeProperties_scope": {
+			"value": "/subscriptions/ac714a17-7a41-4bf4-944d-13d4ee389d4e/resourceGroups/ADF_Sangu/providers/Microsoft.Storage/storageAccounts/datalakesangu16"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
