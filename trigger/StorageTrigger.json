@@ -1,0 +1,17 @@
+{
+	"name": "StorageTrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/source/blobs/CSVFILES",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/ac714a17-7a41-4bf4-944d-13d4ee389d4e/resourceGroups/ADF_Sangu/providers/Microsoft.Storage/storageAccounts/datalakesangu16",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

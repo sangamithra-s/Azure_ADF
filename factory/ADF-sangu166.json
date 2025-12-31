@@ -1,0 +1,9 @@
+{
+	"name": "ADF-sangu166",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c9863c43-0b16-4d2a-a13a-be58509a7b5f",
+		"tenantId": "481a1de3-d6e7-4a1c-98a7-cbca2df7765c"
+	}
+}
