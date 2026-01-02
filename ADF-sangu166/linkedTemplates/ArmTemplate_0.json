@@ -217,13 +217,16 @@
 				},
 				"parameters": {
 					"Container": {
-						"type": "string"
+						"type": "string",
+						"defaultValue": "source"
 					},
 					"Folder": {
-						"type": "string"
+						"type": "string",
+						"defaultValue": "DeltaSource"
 					},
 					"File": {
-						"type": "string"
+						"type": "string",
+						"defaultValue": "locations.csv"
 					}
 				},
 				"annotations": [],
